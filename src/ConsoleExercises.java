@@ -7,21 +7,24 @@ public class ConsoleExercises {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter an integer: ");
-        int userInt = scanner.nextInt();
+//        System.out.println("Enter an integer: ");
+//        int userInt = scanner.nextInt();
+//        System.out.printf("Your integer is %d%n", userInt);
+//
+//        System.out.println("Please enter three words: ");
+//        String userInput1 = scanner.next();
+//        String userInput2 = scanner.next();
+//        String userInput3 = scanner.next();
+//        System.out.printf("The words you entered are:%n%s%n%s%n%s%n", userInput1, userInput2, userInput3);
 
-        System.out.println("Please enter three words: ");
-        String userInput1 = scanner.next();
-        String userInput2 = scanner.next();
-        String userInput3 = scanner.next();
-        System.out.printf("%s%n%s%n%s%n", userInput1, userInput2, userInput3);
-
-        System.out.println("Please enter a sentence: ");
-        String userInput4 = scanner.next();
-
-        System.out.println("Please enter a sentence: ");
-        String userInput5 = scanner.nextLine();
-        System.out.println(userInput5);
+//        System.out.println("Please enter a sentence: ");
+////        String userInput4 = scanner.next();
+////
+//
+        Scanner scanner2 = new Scanner(System.in);
+//        System.out.println("Please enter a sentence: ");
+//        String userInput5 = scanner.nextLine();
+//        System.out.println(userInput5);
 
         System.out.println("Enter the length of the classroom: ");
         String lengthInput = scanner.nextLine();
