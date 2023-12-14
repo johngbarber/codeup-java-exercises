@@ -21,9 +21,33 @@ public class MethodsNotes {
         s = "Wub a lub a dub dub";
     }
 
+    public static long getPower(int base, int exponent) {
+        if (exponent == 0) {
+            return 1;
+        } else if (exponent == 1) {
+            return base;
+        } else if (exponent == 2) {
+            return base * base;
+        }
+        return base * getPower(base, exponent - 1);
+    }
 
+    public static void count(int n) {
+        if (n <= 0) {
+            System.out.println("All done!");
+            return;
+        }
+        System.out.println(n);
+        count(n - 1);
+    }
+
+    public static void iSpy(String objectToFind, String hint){
+        System.out.println("Player");
+    }
 
     public static void main(String[] args) {
-        System.out.println(birthday());
+        int y = 125;
+        String x = "hello" + y;
+        System.out.println(x);
     }
 }

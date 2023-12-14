@@ -14,7 +14,7 @@ public class MethodsExercises {
         return multOne * multTwo;
     }
 
-    public static long division(long divOne, long divTwo){
+    public static double division(double divOne, double divTwo){
         if (divTwo == 0){
             throw new IllegalArgumentException("Denominator cannot be zero.");
         }
@@ -69,12 +69,12 @@ public class MethodsExercises {
     }
 
     public static void main(String[] args) {
-        System.out.println(division(4,2));
-        System.out.println(modulus(5,2));
-        System.out.println(addition(4,2));
-        System.out.println(subtraction(5,1));
-        System.out.println(multiplication(25,26));
-        System.out.println("Factorial is: " + factorial());
+//        System.out.println(division(4,2));
+//        System.out.println(modulus(5,2));
+//        System.out.println(addition(4,2));
+//        System.out.println(subtraction(5,1));
+//        System.out.println(multiplication(25,26));
+//        System.out.println("Factorial is: " + factorial());
         DiceRoller();
     }
 }
